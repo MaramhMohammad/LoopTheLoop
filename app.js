@@ -33,21 +33,27 @@ if (r == true) {
 
 var number = prompt("How many GIF you want to see? ");
 
-
 for(i = 0; i < number; i++) {
 
-    document.write('<img src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif" alt="">')
+    document.write('<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--khJyKWT---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/gopsstdhcylskfcadcex.gif"> ');
+
 
 }
 
 
-var userinp = prompt("how many pistures you want")
-function newimg(){
-  for(var i =0; i<userinp; i++ ) {
-    document.write("https://www.gan.co/wp-content/uploads/2018/06/Powered-by-Stacked-Dark-2color-gray-1-1-pdf.jpg")
-  }
+
+var piccCount=prompt("how many picture you want?");
+function count(x){
+while(x<5){
+    alert('please enter more than 5')
+   x=prompt("how many picture you want?");
 }
-newimg()
+for(var i =0;i <= x; i++){
+    document.write('<img src="https://cdn.educba.com/academy/wp-content/uploads/2015/12/Application-Software.jpg"> ');
+}
+}
+count(piccCount);
+
 
 
 confirm("Press OK if you are ready!");
@@ -63,3 +69,13 @@ while (guess != correct){
     alert ("opss sorry bye ...");
   }
 }
+
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World!";
+}
+
+myFunction();
+
+
+
