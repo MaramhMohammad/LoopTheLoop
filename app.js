@@ -44,13 +44,13 @@ for(i = 0; i < number; i++) {
 
 var piccCount=prompt("how many picture you want?");
 function count(x){
-while(x<5){
+    while(x<5){
     alert('please enter more than 5')
-   x=prompt("how many picture you want?");
-}
-for(var i =0;i <= x; i++){
-    document.write('<img src="https://cdn.educba.com/academy/wp-content/uploads/2015/12/Application-Software.jpg"> ');
-}
+   x=prompt("how many picture you want?");}
+
+
+    for(var i =0; i < x; i++){
+    document.write('<img src="https://cdn.educba.com/academy/wp-content/uploads/2015/12/Application-Software.jpg"> ');}
 }
 count(piccCount);
 
